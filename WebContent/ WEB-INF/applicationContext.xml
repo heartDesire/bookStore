@@ -16,7 +16,7 @@
 	<bean id="userService" class="app.bookstore.model.service.UserServiceImpl">
 	    <property name="dao" ref="userDao"/>
 	</bean>	
-	<!-- UserAction 用户操作的控制器对象 -->
+	<!-- UserAction 用户操作的控制器对
 	<bean id="userAction" class="app.bookstore.action.UserAction" scope="prototype">
 	    <property name="service" ref="userService"/>
 	    <property name="model" ref="userModel"/>
